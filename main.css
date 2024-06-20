@@ -34,9 +34,13 @@ body {
     margin-top: 8px;
 }
 
+.navbar{
+    display: flex;
+    gap: 8px;
+}
+
 .link {
     display: inline;
-    margin-left: 6px;
 } 
 
 .link a {
@@ -50,15 +54,16 @@ body {
 
 .Jcontainer {
     padding: 40px;
-    border-radius: 3%;
+    border-radius: 28px;
     background-image: linear-gradient(0deg, #587d80, #76ABAE);
+    margin-bottom: 16px;
 }
 
 .subtitle {
     font-family: "Bungee";
     font-weight: 500;
     margin-left: 64px;
-    text-align: start;
+    text-align: center;
     font-size: 28px;
 }
 
@@ -92,10 +97,6 @@ body {
     border-radius: 70%;
 }
 
-.Csubtitle {
-    text-align: center;
-}
-
 .fromsoftware {
     margin-bottom: 32px;
 }
@@ -104,14 +105,6 @@ article {
     display: flex;
 }
 
-.Comunidade {
+.bloco{
     margin-bottom: 18px;
-}
-
-.build {
-    margin-bottom: 18px;
-}
-
-section {
-    margin-bottom: 16px;
 }
